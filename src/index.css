@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    padding: 35px 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+.title {
+    letter-spacing: 1.5px;
+    margin-bottom: 100px;
+}
+
+.input, .output {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.balanceHead {
+    margin-bottom: 50px;
+}
+
+.balance {
+    color: rgb(0, 146, 0);
+    font-weight: 800;
+}
+
+.item {
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+
+.item.income {
+    background-color: rgb(187, 245, 187);
+}
+.item.expense {
+    background-color: rgb(247, 194, 184);
+}
+
+.amt, .type {
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.des {
+    padding: 0 25px;
+}
+
+.income .amt {
+    color: rgb(0, 146, 0);
+}
+.expense .amt {
+    color: rgb(168, 28, 0)
+}
+
+label {
+    display: block; 
+    margin-bottom: 2px;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 30px;
+    font-weight: 800;
+    border: none;
+    background-color: rgb(55, 55, 55);
+    color: rgb(216, 216, 216);
+    border-radius: 5px;
+    border: 3px solid rgb(55, 55, 55);
+    transition: 0.3s;
+}
+
+button:hover {
+    color: rgb(55, 55, 55);
+    background-color: rgb(216, 216, 216);
+}
+
+select {
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+}
